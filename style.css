@@ -21,7 +21,8 @@ body {
 }
 
 .logo-img {
-  max-width: 150px;
+  max-width: 125px;
+  max-height: 125px;
 }
 
 .links {
@@ -49,7 +50,7 @@ body {
 .section {
   display: flex;
   max-width: 100%;
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 .section#first {
@@ -70,7 +71,7 @@ body {
 #left h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 1000;
   color: #F9FAF8;
 }
 
@@ -109,18 +110,32 @@ body {
   text-align: center;
 }
 
+.section#second h1 {
+  font-size: 36x;
+  font-weight: 1000;
+  color: #1F2937;
+}
+
 .gallery {
   display: flex;
+  justify-content: space-between;
 }
 
 .gallery-column {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #1F2937;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .gallery-image {
   object-fit: cover;
   width: 250px;
   height: 250px;
+  margin: 10px;
   border-radius: 18px;
   border: 5px solid #3882F6;
 }
